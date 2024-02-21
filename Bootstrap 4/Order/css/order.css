@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+.order-card {
+	position: relative;
+	margin-top: 60px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+.order-card img {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	filter: drop-shadow(2px 4px 6px #bdb6b6);
+	-webkit-filter: drop-shadow(2px 4px 6px #bdb6b6);
+}
+.order-card .card-body {
+	padding-top: 70px;
+	text-align: center;
+	font-weight: 600;
+}
+.order-card .card-body li {
+	padding: 10px;
+}
+.order-modal .table td,
+.order-modal .table th {
+	padding: 0.5rem;
+	vertical-align: middle;
+}

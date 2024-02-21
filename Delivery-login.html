@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="./css/icofont.min.css">
+
+  <!-- Main Style -->
+  <link rel="stylesheet" href="./css/newStyle.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="" width="120" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-scroll="home" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="about" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="how-to" href="#how-to">How To</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="features" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="faq" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="pricing" href="#pricing">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="services" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-setting">
+          <a class="btn-lang" href="./index-ar.html">
+            <span>العربية</span>
+          </a>
+          <a href="./login.html">
+            <button class="btn btn-outline-dark">
+              Login
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <section class="form-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 offset-xl-4 col-lg-6 offset-lg-3 col-md-10 offset-md-1">
+
+          <div class="form-peice" id="delivery_login">
+            <img src="./images/Delivery.svg" class="form-image" alt="Delivery">
+            <form class="customer-form" action="#" method="post">
+              <h2 class="text-center fw-bold">Delivery Login</h2>
+              <div class="form-group mb-3">
+                <label for="deliverPhone">Phone</label>
+                <input type="text" class="form-control mt-1" name="deliverPhone" id="deliverPhone" required>
+              </div>
+
+              <div class="form-group mb-3">
+                <label for="deliveryrPassword">Password</label>
+                <input type="password" class="form-control mt-1" name="deliveryrPassword" id="deliveryrPassword"
+                  required>
+              </div>
+
+              <div class="buttons">
+                <input type="submit" value="Login">
+                <a href="./signup.html" class="mx-2">Don't have account?</a>
+              </div>
+
+              <div class="login-type mt-5">
+                <a href="./login.html" class="mx-2"> Login </a>
+                <a href="./customer-login.html" class="mx-2"> Customer Login </a>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="form-peice" id="delivery_login">
+  <img src="./images/Delivery.svg" class="form-image" alt="Delivery">
+  <form class="customer-form" action="#" method="post">
+    <h2 class="text-center fw-bold">Delivery Login</h2>
+    <div class="form-group mb-3">
+      <label for="deliverPhone">Phone</label>
+      <input type="text" class="form-control mt-1" name="deliverPhone" id="deliverPhone" required>
+    </div>
+
+    <div class="form-group mb-3">
+      <label for="deliveryrPassword">Password</label>
+      <input type="password" class="form-control mt-1" name="deliveryrPassword" id="deliveryrPassword" required>
+    </div>
+
+    <div class="buttons">
+      <input type="submit" value="Login">
+      <a href="./signup.html" class="mx-2">Don't have account?</a>
+    </div>
+
+    <div class="login-type mt-5">
+      <a href="./login.html" class="mx-2"> Login </a>
+      <a href="./customer-login.html" class="mx-2"> Customer Login </a>
+    </div>
+  </form>
+</div> -->

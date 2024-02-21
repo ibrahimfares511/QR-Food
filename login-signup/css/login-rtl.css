@@ -1,0 +1,13 @@
+body {
+	direction: rtl;
+}
+.form .form-peice {
+	transform: translateX(100%) !important;
+}
+.form .form-peice.switched {
+	left: auto !important;
+	right: -30% !important;
+}
+.form form {
+	left: 40% !important;
+}

@@ -1,0 +1,32 @@
+body,
+.accordion-body,
+.contact form {
+	direction: rtl;
+}
+/* When Write Navbar Arabic */
+/* .navbar-nav,
+.nav-setting {
+	margin-left: 0;
+	margin-right: auto !important;
+} */
+header .header-content .btn-video i {
+	transform: rotate(180deg);
+}
+nav,
+.faq,
+.contact,
+footer {
+	direction: ltr;
+}
+.faq .accordion-button {
+	flex-direction: row-reverse;
+}
+.accordion-button::after {
+	margin-left: 0;
+	margin-right: auto;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.pricing .table .table-body li.item-lg {
+		text-align: start;
+	}
+}

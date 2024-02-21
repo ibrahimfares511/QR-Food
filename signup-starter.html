@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="./css/icofont.min.css">
+
+  <!-- Main Style -->
+  <link rel="stylesheet" href="./css/newStyle.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-md">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="" width="120" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-scroll="home" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="about" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="how-to" href="#how-to">How To</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="features" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="faq" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="pricing" href="#pricing">pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="services" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-scroll="contact" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="nav-setting">
+          <a class="btn-lang" href="./index-ar.html">
+            <span>العربية</span>
+          </a>
+          <a href="./login.html">
+            <button class="btn btn-outline-dark">
+              Login
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <div id="particles-js"></div>
+  <!-- This Section Will You add instead of of another -->
+  <section class="form-section signup-price">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pricing">
+            <div class="table text-center">
+              <div class="table-head">
+                <h5>starter</h5>
+                <h3 class="card-price text-center">
+                  ر.س800<span class="period">/Year</span>
+                </h3>
+              </div>
+              <hr class="mx-auto mt-0">
+              <ul class="table-body">
+                <li class="not-allow">Welcome Page</li>
+                <li> Menu </li>
+                <li class="not-allow">Packages</li>
+                <li class="not-allow">specialities</li>
+                <li> Qr code</li>
+                <li class="not-allow">Whatsapp Order</li>
+                <li> Online Order</li>
+                <li class="not-allow">Reservation</li>
+                <li> Contacts</li>
+                <li class="not-allow">Multi Branches</li>
+                <li class="not-allow">PWA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Form Box -->
+        <div class="col-md-6">
+
+          <div class="form-peice" style="transform: scale(.9);" id="signup">
+            <img src="./images/signup.svg" class="form-image" alt="signup">
+            <form class="signup-form" action="#" method="post">
+              <h2 class="text-center fw-bold">SignUp</h2>
+              <div class="form-group mb-2">
+                <label>Restaurant name</label>
+                <input type="text" class="form-control " name="username">
+              </div>
+              <div class="form-group mb-2">
+                <label>Owner Name <i class="icofont-star-alt-2"></i></label>
+                <input type="text" class="form-control " name="name" required>
+              </div>
+              <div class="form-group mb-2">
+                <label>Email <i class="icofont-star-alt-2"></i></label>
+                <input type="email" class="form-control " name="email" required>
+              </div>
+              <div class="form-group mb-2">
+                <label>Phone</label>
+                <input type="text" class="form-control " name="phone">
+              </div>
+              <div class="form-group mb-2">
+                <label>Password <i class="icofont-star-alt-2"></i></label>
+                <input type="password" class="form-control " name="password" required>
+              </div>
+              <div class="form-group mb-2">
+                <label>Confirm Password <i class="icofont-star-alt-2"></i></label>
+                <input type="password" class="form-control " name="cpassword" required>
+              </div>
+              <div class="buttons">
+                <input type="submit" value="Signup Now" id="submit">
+                <a href="./login.html" class="mx-2">I have an account</a>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>
